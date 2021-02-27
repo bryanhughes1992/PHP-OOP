@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&display=swap');
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.links {
+  text-decoration: none;
+  display: inline;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.link-anchor:link {
+  color: #000;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  margin: 10px;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+footer {
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Akaya Telivigala', cursive;
+*/
